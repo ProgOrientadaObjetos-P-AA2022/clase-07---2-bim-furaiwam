@@ -22,13 +22,13 @@ public class EstudiantePresencial extends Estudiante{
     }
 
     // 4.  Método calcularMatriculaPresencial()
-    public void calcularMatriculaPresencial(String s){
+    public void calcularMatriculaPresencial(){
         matriculaPresencial = numeroCreditos * costoCredito;
     }
 
     //  Métodos obtener para los datos o atributos de la clase
     // 5. Método obtenerNumeroCreditos() : Entero
-    public int obtenerNumeroCreditos(int i){
+    public int obtenerNumeroCreditos(){
         return numeroCreditos; 
     }
 
